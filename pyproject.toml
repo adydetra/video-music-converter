@@ -1,0 +1,19 @@
+[project]
+name = "video-music-converter"
+version = "0.1.0"
+description = "GUI untuk konversi MP4/MKV ke MP3 (offline, multiple upload, pilih bitrate)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "imageio-ffmpeg>=0.4.9",
+    "tkinterdnd2>=0.4.3",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.16.0",
+]

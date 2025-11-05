@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.spec
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE and Editor
+.idea/
+.vscode/
+*.sublime-*
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Project specific
+*.mp3                # Exclude output MP3 files
+!assets/             # Track assets directory and its contents
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build outputs
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.app
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Type checking
+.mypy_cache/
+
+# OS generated files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
